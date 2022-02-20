@@ -1,0 +1,102 @@
+body {
+	font-family: Trebuchet MS;
+	background-image:url("../images/bglogin1.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+	color: white;
+	height: 100%;
+	margin:0 auto;
+}
+#header{
+	  background-color: transparent;
+	  padding: 15px 10px;
+	  transition: 0.4s;
+	  position: fixed;
+	  width: 100%;
+	  top: 0;
+	  color:white;
+	  z-index: 99;
+}
+#header a:hover {
+	color: yellow;
+	transition: 1s;
+}
+
+#header a.active {
+	color: dodgerblue;
+}
+.icon1 {
+	margin-top: 1%;
+	margin-left: 1%;
+}
+#judul {
+	font-size: 40px;
+	font-family:Furore;
+	font-weight:bold;
+	padding-left:1%;
+}
+#nav {
+	padding:0% 3% 0% 0%;
+	word-spacing: 30px;
+	float: right;
+	font-family:Fold;
+	font-size:20px;
+	margin-right: 5%;
+	transition: 3s;
+}
+@font-face {
+	font-family: Furore;
+	src: url(../font/Furore.otf);
+}
+@font-face {
+	font-family: Fold;
+	src: url(../font/fold.otf);
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+/*dropdown*/
+li{
+	display:inline;
+}
+header nav ul li{
+	list-style:none;
+	position:relative;
+}
+header nav ul li ul{
+	position:absolute;
+	left:0%;
+	display:none;
+	padding:16% 0% 0% 11%;
+	line-height:25px;
+}
+header nav ul li:hover ul{
+	display:block;
+}
+header nav ul li ul li{
+	display:block;
+	width:150px;
+}
+/*akhir style dropdown*/
+#pict{
+	float:right;
+}
+#done{
+	font-size:40px;
+}
+#margin{
+	margin:0 10%;
+}
+#margin2{
+	margin:0 5%;
+}
+td{
+	line-height:25px;
+	font-weight:bold;
+	font-size:20px;
+}
+table{
+	border-collapse:collapse;
+	border-color:yellow;
+}

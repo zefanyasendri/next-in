@@ -1,0 +1,232 @@
+body {
+	font-family: Trebuchet MS;
+	color: white;
+	height: 100%;
+	margin:0 auto;
+}
+/*megatur background-image pada content pertama*/
+.content1 {
+	background-image: url("../images/bgiph1.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:750px;
+}
+#test1{
+	font-size:30px;
+	font-family:Trebuchet MS;
+}
+#test2{
+	font-size:40px;
+	font-weight:bold;
+}
+.place1{ 
+	color: #fff;
+	padding-top:37%;
+	padding-left:2%;
+	line-height:40px;
+}
+#place2{
+	line-height:60px;
+}
+/*akhir dari style content1*/
+/*megatur warna tulisan dan posisi text pada content kedua*/
+.content2 {
+	color:black;
+	text-align:center;
+}
+/*mengatur style pada button*/
+button:hover{
+	border: 3px solid yellow;
+	background-color: black;
+}
+/*ukuran gambar*/
+#dust{
+	width:600px;
+	height:600px;
+}
+/*menempat text berada di sebelah kanan dari gambar*/
+.kanan{
+	padding-top:11%;
+	font-size:18px;
+	font-family:Trebuchet MS;
+	float:right;
+	width:50%;
+}
+/*akhir dari content 2*/
+/*megatur background-image pada content ketiga*/
+.content3 {
+	background-image: url("../images/bgiph1.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:650px;
+}
+/*mengatur posisi text, margin, padding, dan ukuran text*/
+.space1{
+	text-align:center;
+	font-size:30px;
+	padding-top:2%;
+	line-height:150%;
+}
+#space2{
+	text-align:center;
+	padding-top:3%;
+	font-weight:bold;
+	font-size:40px;
+}
+/*akhir dari syle content 3*/
+/*membuat border dengan ukuran yang menyesuaikan dengan video yang dimasukkan*/
+.content4 {
+	margin:5% 0% 5% 0%;
+	color:white;
+	background-color:black;
+	padding:0% 3% 0% 7%;
+	height: 700px;
+	border:5px solid yellow;
+	border-radius: 20px;
+}
+/*membuat border dan background-color dengan ukuran yang menyesuaikan dengan slide gambar*/
+.content5 {
+	color:white;
+	background-color:black;
+	height:100%;
+	margin:0% 1% 6% 1%;
+	border:6px double yellow;
+	border-radius:50px;
+}
+/*megatur background-image pada content keenam*/
+.content6 {
+	background-image: url("../images/bgiph2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding:1% 3%;
+}
+#driv1{
+	font-size:25px;
+	margin-left:2%;
+}
+#drive2{
+	float:right;
+	padding-right:3%;
+}
+#drive3{
+	padding-top:0.2%;
+}
+#drive4{
+	float:right;
+	padding-right:72%;
+}
+/*mengatur posisi button ke tengah*/
+#place3{
+	padding-left:43%;
+}
+/*akhr dari style content 6*/
+.content7 {
+	font-size:15px;
+	padding-top:1%;
+}
+/*dropdown*/
+li{
+	display:inline;
+}
+header nav ul li{
+	list-style:none;
+	position:relative;
+}
+header nav ul li ul{
+	position:absolute;
+	left:0%;
+	display:none;
+	padding:16% 0% 0% 11%;
+	line-height:25px;
+}
+header nav ul li:hover ul{
+	width:66%;
+	display:block;
+	background-color:black;
+}
+header nav ul li ul li{
+	display:block;
+	width:150px;
+}
+/*akhir style dropdown*/
+h1{
+	text-align:center;
+	font-size:50px;
+	padding-top:1%;
+}
+h2{
+	font-size:40px;
+	padding-top:3%;
+	text-align:center;
+}
+button{
+	font-size:20px;
+	background-color: transparent;
+	font-family: Furore;
+	color: white;
+	border-width: 2px;
+	width: 180px;
+	height: 50px;
+	border-radius:20px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+@font-face {
+	font-family: Furore;
+	src: url(../font/Furore.otf);
+}
+@font-face {
+	font-family: Fold;
+	src: url(../font/fold.otf);
+}
+/*mengatur ukuran dan stle daru NEXT IN*/
+#judul {
+	font-size: 40px;
+	font-family:Furore;
+	font-weight:bold;
+	padding-left:1%;
+}
+/*menempatkan nav ke kanan dan mengatur posisi tulisan nav*/
+#nav {
+	padding:0% 3% 0% 0%;
+	word-spacing: 30px;
+	float: right;
+	font-family:Fold;
+	font-size:20px;
+	margin-right: 5%;
+	transition: 3s;
+}
+.sudahLogin:hover {
+	font-weight: bold;
+	color: yellow;
+	transition: 2s;
+}
+/*mengatur style nav*/
+#header{
+	  background-color: transparent;
+	  padding: 15px 10px;
+	  transition: 0.4s;
+	  position: fixed;
+	  width: 100%;
+	  top: 0;
+	  color:white;
+	  z-index: 99;
+}
+#header a:hover {
+	color: yellow;
+	transition: 1s;
+}
+
+#header a.active {
+	color: dodgerblue;
+}
+.icon1 {
+	margin-top: 1%;
+	margin-left: 1%;
+}
+.toggle-btn:hover {
+	background-color: yellow;
+}

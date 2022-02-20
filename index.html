@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="NEXT IN GROUP">
+    <title>Next In</title>
+    <link rel="stylesheet" href="css/styleIndex.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/slide.css">
+    <link href="jquery-ui.css" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <a href="index.html">
+                <img src="images/icon.png" class="icon1" height="2.5%" width="2.5%">
+                <span id="judul">NEXT IN</span>
+            </a>
+            <div id="nav">
+                <nav>
+                    <!--bikin tag nav-->
+                    <ul>
+                        <!--bikin tag ul dan li-->
+                        <li><a href="#" class="navi">HOME</a></li>
+                        <li><a href="about.html" class="navi">ABOUT</a></li>
+                        <li class="sub-menu"><a href="#" class="navi">SPESIFIKASI</a>
+                            <ul>
+                                <li><a href="spec/iph1.html">IPHONE-1</a></li>
+                                <li><a href="spec/iph3.html">IPHONE-3</a></li>
+                                <li><a href="spec/iph4.html">IPHONE-4</a></li>
+                                <li><a href="spec/iph5.html">IPHONE-5</a></li>
+                                <li><a href="spec/iph6.html">IPHONE-6</a></li>
+                                <li><a href="spec/iph7.html">IPHONE-7</a></li>
+                                <li><a href="spec/iph8.html">IPHONE-8</a></li>
+                                <li><a href="spec/iph11.html">IPHONE-X</a></li>
+                                <li><a href="spec/iphx.html">IPHONE-11</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="review.html" class="navi">REVIEW</a></li>
+                    </ul>
+            </div>
+            </nav>
+        </div>
+    </header>
+    <div class="content1">
+        <div class="place1">
+            <span id="test2">HIGH TECH FOR HIGH USER<br></span>
+            <span id="test1">Iphone is Supported with the Best and Most Trusted Technology</span><br>
+            <span id="test1">Login Your Account to Start a New Experience<br>
+				<span id="place2"><button><a href="login.html">LOGIN</a></button></span>
+        </div>
+    </div>
+
+    <div class="content2">
+
+        <div class="kanan">
+            Apple's latest mobile phone, the iPhone 11,<br> iPhone 11 Pro and iPhone 11 Pro Max,<br> is the successor to several cellphone series released in 2018.<br> Iphone comes with a different screen size, <br> iPhone 11 has a 6.1 inch stretch, <br>            iPhone 11 Pro 5.8 inches while iPhone 11 Pro Max 6.5 inches.<br>
+            <div class="toggle1">
+                iPhone 11 is equipped with two cameras namely 12 MP for wide<br> angle and 12 MP ultra-wide camera that supports 12x optical zoom.<br> Not only that, the chipset used was also improved, which uses a Bionic A13<br> cipset with 7 nm fabrication
+                which is claimed to be the fastest CPU and GPU.<br><br>
+            </div>
+            <button type="button" class="toggle-btn">Hide or Show</button>
+        </div>
+        <img id="dust" src="images/iph1.jpg">
+    </div>
+    <br>
+    <div class="content3">
+        <div id="space2">
+            Iphone Technology Development<br> From the First Product to the Latest Product<br>
+        </div>
+        <div class="space1">
+            <p>There are first Iphone in 2007, Iphone 3G (2008), Iphone 3G S(2009)<br> Iphone 4 (2010), Iphone 4 S (2011), Iphone 5, 5S, 5C (2012-2013),<br> Iphone 6, 6+, 6S, 6S+ (2014-2015), Iphone SE 2016, Iphone 7, 7+ 2016,<br> Iphone 8, 8+ (2017), Iphone
+                X, XS, XR, XS max (2017-2018),<br> Iphone 11, 11 Pro, 11 Pro Max (2019).</p>
+            <p>SPESIFICATIONS Page for Details....</p>
+            <button><a href="spec/iph1.html">SPESIFICATION</a></button>
+        </div>
+    </div>
+
+    <div class="content4">
+        <h2>INTRODUCING THE NEW IPHONE</h2>
+        <video style="margin-top:0px;" width="45%" height="70%" controls>
+					<source src="Video/apple1.mp4" type="video/mp4">
+				</video>
+        <span id="airway"><video style="margin-top:0px;" width ="45%" height="70%" controls>
+					<source src="Video/apple2.mp4" type="video/mp4"></span>
+        </video>
+    </div>
+    <div class="content5">
+        <center>
+            <br>
+            <span style="font-size:40px;color:white;font-weight:bold;" ;>Test Camera</span>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/iph2.png" style="width:90%;height:10%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/iph3.jpg" style="width:90%;height:10%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/iph4.jpg" style="width:90%;height:10%">
+                </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </center>
+        <script type="text/javascript">
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                    slideIndex = 1
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 5000);
+            }
+        </script>
+    </div>
+    <div class="content6">
+        <h1>NEXT IN Values</h1>
+        <div id="driv1">
+            <div id="drive2">
+                <h3>Simple</h3>
+                <p>users will find it very easy<br> to find what they want because of the<br> simple web settings.</p>
+            </div>
+            <div id="drive2">
+                <h3>Helpfulness</h3>
+                <p>very helpful users find out<br> about the iphone.</p>
+            </div>
+            <div id="drive3">
+                <h3>Elegant</h3>
+                <p>we make an elegant web design<br> so it will be very interesting to see.</p>
+            </div>
+        </div>
+        <div id="place3">
+            <div style="padding:7% 0% 5% 0%">
+                <button><a href="login.html">LOGIN NOW</a></button>
+            </div>
+        </div>
+        <div class="content7">
+            <div id="drive4">
+                <h4>ABOUT</h4>
+                Profile<br> Our Story<br> Photo
+                <br> Contact
+            </div>
+            <div id="drive2">
+                <h4>SPESIFICATION</h4>
+                Picture<br> Spec
+                <br> Every Iphone<br> Assets
+            </div>
+            <h4>REVIEW</h4>
+            Pictures<br> Videos
+            <br> Indroduction
+            <br> People's Opinion<br>
+        </div>
+
+        <div style="color:black;font-weight:bold;padding-top:5%">
+            <h3>NEXT IN&trade;</h3>
+            <hr>
+            <p style="text-align: center;">&copy;Copyright 2019 NEXT IN Corp. All Rights Reserved. Institut Teknologi Harapan Bangsa 2019, Bandung, Indonesia.</p>
+        </div>
+    </div>
+    <script>
+        // When the user scrolls down 100px 
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("header").style.padding = "0px 10px";
+                document.getElementById("header").style.backgroundColor = "#000";
+                document.getElementById("header").style.color = "#fff";
+                document.getElementById("header").style.boxShadow = "2px 2px 0px 2px yellow";
+            } else {
+                document.getElementById("header").style.padding = "15px 10px";
+                document.getElementById("header").style.backgroundColor = "transparent";
+                document.getElementById("header").style.color = "#fff";
+                document.getElementById("header").style.boxShadow = "0px 0px 0px 0px transparent";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

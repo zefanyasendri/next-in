@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="NEXT IN GROUP">
+		<title>Next In</title>
+		<link rel="stylesheet" href="css/styleReview.css">
+		<link rel="stylesheet" href="css/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="css/slide.css">
+		<link href="jquery-ui.css" rel="stylesheet">
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/index.js"></script>
+		<link rel="icon" type="image/png" href="images/icon.png">
+	</head>
+	
+	<body>
+		<header>
+		<div id="header">
+				<a href="index.html">
+					<img src="images/icon.png" class="icon1" height="2.5%" width="2.5%">
+					<span id="judul">NEXT IN</span>
+				</a>
+				<div id="nav">
+				<nav>
+						<ul><!--bikin tag ul dan li-->
+							<li><a href="indexSetelahLogin.html" class="navi">HOME</a></li>
+							<li><a href="about.html" class="navi">ABOUT</a></li>
+							<li class="sub-menu"><a href="#" class="navi">SPESIFIKASI</a>
+								<ul>
+									<li><a href="spec/iph1.html">IPHONE-1</a></li>
+									<li><a href="spec/iph3.html">IPHONE-3</a></li>
+									<li><a href="spec/iph4.html">IPHONE-4</a></li>
+									<li><a href="spec/iph5.html">IPHONE-5</a></li>
+									<li><a href="spec/iph6.html">IPHONE-6</a></li>
+									<li><a href="spec/iph7.html">IPHONE-7</a></li>
+									<li><a href="spec/iph8.html">IPHONE-8</a></li>
+									<li><a href="spec/iphx.html">IPHONE-X</a></li>
+									<li><a href="spec/iph11.html">IPHONE-11</a></li>
+								</ul>
+							</li>
+							<li><a href="review.html" class="navi">REVIEW</a></li>
+						</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+		<br><br>
+		
+		<div id=margin>
+			<div class="ganjil">
+					<h3>iPhone First Generation</h3>
+					<video controls>
+						<source src="Video/1.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="genap">
+					<h3>Iphone 3G and 3GS Review and Compare</h3>
+					<video controls>
+						<source src="Video/3.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="ganjil">
+					<h3>Iphone 4 and 4S Review and Compare</h3>
+					<video controls>
+						<source src="Video/4.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="genap">
+					<h3>Iphone 5, 5C and 5S Review and Compare</h3>
+					<video controls>
+						<source src="Video/5.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="ganjil">
+					<h3>Iphone 6,6S, and 6S Plus Review and Compare</h3>
+					<video controls>
+						<source src="Video/6.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="genap">
+					<h3>Iphone 7 and 7S Review and Compare</h3>
+					<video controls>
+						<source src="Video/7.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="ganjil">
+					<h3>Iphone 8 and 8S Review and Compare</h3>
+					<video controls>
+						<source src="Video/8.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="genap">
+					<h3>iPhone X, XR dan XS Max Review and Compare</h3>
+					<video controls>
+						<source src="Video/10.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="ganjil">
+					<h3>Iphone 11, 11 Pro dan 11 Pro Max</h3>
+					<video controls>
+						<source src="Video/11.mp4" type="video/mp4">
+					</video>
+				</div>
+		</div>
+
+		<footer style="margin:auto">
+		<center>
+		<h3>NEXT IN&trade;</h3>
+			<hr>
+			<p style="text-align: center;">&copy;Copyright 2019 NEXT IN Corp. All Rights Reserved. Institut Teknologi Harapan Bangsa 2019, Bandung, Indonesia.</p>
+			</center>
+		</footer>
+		<script>
+		// When the user scrolls down 100px 
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+			document.getElementById("header").style.padding = "0px 10px";
+			document.getElementById("header").style.backgroundColor = "#000";
+			document.getElementById("header").style.color = "#fff";
+			document.getElementById("header").style.boxShadow = "2px 2px 0px 2px yellow";
+		  } else {
+			document.getElementById("header").style.padding = "15px 10px";
+			document.getElementById("header").style.backgroundColor = "transparent";
+			document.getElementById("header").style.color = "#fff";
+			document.getElementById("header").style.boxShadow = "0px 0px 0px 0px transparent";
+		  }
+		}
+	</script>
+	</body>
+</html>
